@@ -15,3 +15,6 @@ Tecnologias Utilizadas
 HTML5
 CSS3
 JavaScript
+
+<img width="705" alt="image" src="https://github.com/Eduzeraa-DEV/Minigame---/assets/156840280/82695c2f-ad64-4cc8-99ed-0cb4f6f22d93">
+
