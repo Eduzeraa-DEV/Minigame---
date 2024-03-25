@@ -29,15 +29,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function moveSnake() {
-        // Adicionando a nova posição à cauda
+    
         snakeTail.unshift({ x: snakeX, y: snakeY });
 
-        // Removendo a última parte da cauda se não tiver comido comida
+    
         if (snakeTail.length > 1 && !(snakeX === foodX && snakeY === foodY)) {
             snakeTail.pop();
         }
 
-        // Movendo a cabeça da cobra
+        
         switch (snakeDirection) {
             case 'up':
                 snakeY--;
@@ -53,16 +53,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
         }
 
-        // Verificando colisão com a comida
         checkCollision();
 
-        // Verificando colisão com os limites do quadrado
         if (snakeX < 0) snakeX = 14;
         if (snakeX > 14) snakeX = 0;
         if (snakeY < 0) snakeY = 14;
         if (snakeY > 14) snakeY = 0;
 
-        // Atualizando a posição da cobra
         updateSnake();
     }
 
