@@ -16,5 +16,6 @@ HTML5
 CSS3
 JavaScript
 
-<img width="705" alt="image" src="https://github.com/Eduzeraa-DEV/Minigame---/assets/156840280/82695c2f-ad64-4cc8-99ed-0cb4f6f22d93">
+<img width="928" alt="image" src="https://github.com/Eduzeraa-DEV/Minigame---/assets/156840280/2bef8e9a-a22a-4c97-8e6c-a42e587d0eca">
+
 
